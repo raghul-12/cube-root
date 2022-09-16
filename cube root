@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+ double x = 64;
+ double y = 125;
+
+ double x1 = cbrt(x);
+ double y1 = cbrt(y);
+ printf("Cube root of %.2f is %.2f\n", x, x1);
+ printf("Cube root of %.2f is %.2f\n", y, y1);
+}
